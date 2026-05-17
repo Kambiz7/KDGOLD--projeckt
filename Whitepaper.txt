@@ -1,0 +1,12 @@
+​WHITE PAPER: KDGOLD (KMBP)
+​1. Executive Summary
+KDGOLD is a decentralized gold-backed asset protocol built on the BNB Smart Chain (BSC).
+​2. Technical Specifications
+​Token Name: Kambiz Pro
+​Token Symbol: KMBP
+​Total Supply: 1,000,000
+​Network: BSC (BEP-20)
+​3. Roadmap
+​Phase 1: Deployment (Done)
+​Phase 2: Global Marketing
+​Phase 3: Exchange Listing
