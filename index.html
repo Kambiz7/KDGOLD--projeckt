@@ -1,36 +1,83 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KDGOLD_PORO (KMBP) | Official Site</title>
+    <title>KDGOLD_PORO | Official Ecosystem</title>
     <style>
-        :root { --gold: #d4af37; --dark-bg: #0f0f0f; --card-bg: #1a1a1a; --text-color: #e0e0e0; }
-        body { font-family: Tahoma, sans-serif; background-color: var(--dark-bg); color: var(--text-color); margin: 0; text-align: center; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #1a1a1a 0%, #000 100%); padding: 50px 20px; border-bottom: 2px solid var(--gold); }
-        .logo-text { font-size: 2.5rem; color: var(--gold); margin: 0; text-shadow: 0 0 10px rgba(212,175,55,0.5); }
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        .card { background: var(--card-bg); border-radius: 15px; padding: 20px; margin: 20px 0; border: 1px solid #333; }
-        h2 { color: var(--gold); }
-        .btn { display: inline-block; background: var(--gold); color: #000; padding: 10px 20px; text-decoration: none; border-radius: 20px; font-weight: bold; margin: 5px; }
-        .contract-box { background: #000; padding: 10px; border-radius: 5px; font-family: monospace; font-size: 0.8rem; color: var(--gold); word-break: break-all; }
+        :root { --gold: #d4af37; --dark-bg: #0b0b0b; --card-bg: #161616; --text-main: #ffffff; --text-dim: #a0a0a0; }
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: var(--dark-bg); color: var(--text-main); margin: 0; line-height: 1.6; }
+        header { background: linear-gradient(180deg, #1a1a1a 0%, #000 100%); padding: 80px 20px; text-align: center; border-bottom: 2px solid var(--gold); }
+        .logo-text { font-size: 3.5rem; color: var(--gold); margin: 0; font-weight: 800; letter-spacing: 2px; text-shadow: 0 0 20px rgba(212, 175, 55, 0.3); }
+        .tagline { font-size: 1.2rem; color: var(--text-dim); margin-top: 10px; }
+        .container { max-width: 900px; margin: auto; padding: 40px 20px; }
+        .card { background: var(--card-bg); border-radius: 20px; padding: 30px; margin-bottom: 30px; border: 1px solid #222; transition: 0.3s; }
+        .card:hover { border-color: var(--gold); transform: translateY(-5px); }
+        h2 { color: var(--gold); font-size: 1.8rem; margin-top: 0; }
+        .token-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; margin-top: 20px; }
+        .stat-box { background: #202020; padding: 15px; border-radius: 12px; text-align: center; }
+        .stat-label { display: block; color: var(--text-dim); font-size: 0.8rem; text-transform: uppercase; }
+        .stat-value { display: block; color: var(--gold); font-size: 1.2rem; font-weight: bold; }
+        .btn-group { margin-top: 30px; }
+        .btn { display: inline-block; background: var(--gold); color: #000; padding: 14px 35px; text-decoration: none; border-radius: 30px; font-weight: bold; margin: 10px; transition: 0.3s; text-transform: uppercase; letter-spacing: 1px; }
+        .btn:hover { background: #fff; box-shadow: 0 0 25px var(--gold); }
+        .contract-area { margin-top: 20px; background: #000; padding: 15px; border-radius: 10px; border: 1px dashed var(--gold); }
+        .contract-address { font-family: 'Courier New', monospace; font-size: 0.9rem; color: var(--gold); word-break: break-all; }
+        footer { text-align: center; padding: 50px; color: #444; font-size: 0.8rem; letter-spacing: 1px; }
     </style>
 </head>
 <body>
-    <header>
-        <h1 class="logo-text">KDGOLD_PORO</h1>
-        <p>Kambiz Pro (KMBP) - نسل جدید دارایی‌های دیجیتال</p>
-        <a href="https://bscscan.com/token/0x9b4aB4E5C18991b2239714c2b5E6f51933BEaB3" class="btn" target="_blank">BscScan</a>
-        <a href="https://github.com/Kambiz7/KD" class="btn" target="_blank">GitHub</a>
-    </header>
-    <div class="container">
-        <div class="card">
-            <h2>مشخصات توکن</h2>
-            <p>نام: Kambiz Pro | نماد: KMBP</p>
-            <p>تعداد کل: ۱,۰۰۰,۰۰۰ واحد</p>
-            <div class="contract-box">0x9b4aB4E5C18991b2239714c2b5E6f51933BEaB3</div>
+
+<header>
+    <h1 class="logo-text">KDGOLD_PORO</h1>
+    <p class="tagline">Next Generation Digital Asset Ecosystem</p>
+    <div class="btn-group">
+        <a href="https://bscscan.com/token/0x9b4aB4E5C18991b2239714c2b5E6f51933BEaB3" class="btn" target="_blank">BscScan Explorer</a>
+        <a href="https://github.com/Kambiz7/KDGOLD--projeckt" class="btn" target="_blank">GitHub Source</a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Project Overview</h2>
+        <p>KDGOLD_PORO (KMBP) is a decentralized digital asset built on the Binance Smart Chain (BSC). Our mission is to provide a secure, transparent, and scalable store of value within the evolving DeFi landscape.</p>
+    </div>
+
+    <div class="card">
+        <h2>Tokenomics</h2>
+        <div class="token-stats">
+            <div class="stat-box">
+                <span class="stat-label">Token Name</span>
+                <span class="stat-value">Kambiz Pro</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Symbol</span>
+                <span class="stat-value">KMBP</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Total Supply</span>
+                <span class="stat-value">1,000,000</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-label">Network</span>
+                <span class="stat-value">BSC (BEP-20)</span>
+            </div>
         </div>
     </div>
-    <footer style="padding: 20px; color: #555;">© 2026 KDGOLD_PORO</footer>
+
+    <div class="card">
+        <h2>Verified Contract</h2>
+        <p>Transparency is our core value. You can verify our smart contract code and transactions directly on the blockchain.</p>
+        <div class="contract-area">
+            <div class="stat-label" style="margin-bottom: 5px;">Contract Address:</div>
+            <span class="contract-address">0x9b4aB4E5C18991b2239714c2b5E6f51933BEaB3</span>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 KDGOLD_PORO PROJECT. ALL RIGHTS RESERVED.</p>
+</footer>
+
 </body>
 </html>
