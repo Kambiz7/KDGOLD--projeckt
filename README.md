@@ -1,6 +1,6 @@
 # 🪙 KDGOLD_PORO (KDGOLD PRO)
 **Official Repository - Secure Store of Value on BNB Smart Chain**
-
+Official Email: kdgoldpro@gmail.com
 KDGOLD_PORO is a community-driven digital asset designed for long-term wealth preservation and decentralized financial security.
 
 ## 🚀 Project Overview
